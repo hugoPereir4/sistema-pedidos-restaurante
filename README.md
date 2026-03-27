@@ -1,6 +1,6 @@
 # Sistema de Pedidos para Restaurante
 
-> Projeto de portfólio desenvolvido como parte do curso de Análise e Desenvolvimento de Sistemas (UNIFESO) e da trilha Fullstack da OneBitCode.
+> Projeto de portfólio desenvolvido para praticar e consolidar habilidades em desenvolvimento web fullstack.
 
 ## Sobre o projeto
 
