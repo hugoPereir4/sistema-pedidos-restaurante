@@ -57,8 +57,10 @@ Sistema web de pedidos para restaurante com duas interfaces: uma pública para o
 ## Estrutura de pastas
 ```
 restaurante/
+├── .gitignore
+├── README.md
 ├── config/
-│   └── database.php
+│   └── database.example.php
 ├── api/
 │   ├── cardapio.php
 │   ├── pedidos.php
@@ -74,14 +76,22 @@ restaurante/
     └── schema.sql
 ```
 
+## Como rodar localmente
+
+1. Clone o repositório
+2. Copie `config/database.example.php` para `config/database.php`
+3. Preencha `database.php` com suas credenciais do MySQL
+4. Importe `database/schema.sql` no phpMyAdmin
+5. Acesse `http://localhost/restaurante/public`
+
 ## Status do projeto
 
 🚧 Em desenvolvimento
 
 | Fase | Descrição | Status |
 |------|-----------|--------|
-| 1 | Banco de dados (schema + seed) | ⏳ Pendente |
-| 2 | API do cardápio | ⏳ Pendente |
+| 1 | Banco de dados (schema + seed) | ✅ Concluído |
+| 2 | API do cardápio | 🚧 Em andamento |
 | 3 | Página do cliente | ⏳ Pendente |
 | 4 | Criação de pedido (carrinho) | ⏳ Pendente |
 | 5 | Painel do restaurante | ⏳ Pendente |
