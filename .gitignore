@@ -1,0 +1,15 @@
+# Configurações sensíveis
+config/database.php
+
+# Dependências e cache
+vendor/
+
+# Editor
+.vscode/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
