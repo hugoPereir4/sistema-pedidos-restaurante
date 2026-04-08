@@ -71,6 +71,7 @@ O pagamento é realizado de forma presencial pelo atendente ao final do atendime
 | RN07 | Pedidos lançados manualmente pelo painel seguem o mesmo fluxo de status dos pedidos enviados pelo cliente |
 
 ## Estrutura de pastas
+```text
 restaurante/
 ├── .gitignore
 ├── README.md
@@ -88,7 +89,8 @@ restaurante/
 │   ├── style.css
 │   └── app.js
 └── database/
-└── schema.sql
+    └── schema.sql
+```
 
 ## Como rodar localmente
 
