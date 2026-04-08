@@ -1,15 +1,30 @@
 # Configurações sensíveis
 config/database.php
+.env
+.env.local
 
 # Dependências e cache
 vendor/
 
 # Editor
 .vscode/
+.idea/
 
 # Sistema operacional
 .DS_Store
 Thumbs.db
+desktop.ini
 
 # Logs
 *.log
+logs/
+
+# XAMPP / PHP
+*.sql
+!database/schema.sql
+uploads/
+tmp/
+temp/
+
+# SQLTools
+*.session.sql
